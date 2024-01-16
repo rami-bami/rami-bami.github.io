@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #44af69;
+  background-color: #dbd5b5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hoofd {
+  font-size: clamp(25px, 100px, 125px);
+  color: #fcab10;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: #fcab10;
+}
+
+ .nav {
+    background: #f8333c;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin-top: -1px;
+}
+
+.r-nav {
+    float: right;
+}
+
+
+.lijn {
+  height: 10px;
+  background-color: #2b9eb3;
+}
+
+.tekst {
+  text-align: center;
+}
+
+.leeg {
+  height: 30px;
+}
+
+.badges {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 100px;
+    font-size: 30px;
+}
